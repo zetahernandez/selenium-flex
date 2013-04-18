@@ -2,7 +2,7 @@
   "name": "selenium-flex",
   "version": "0.1.1",
   "description": "Selenium Flex Api",
-  "main": "index.js",
+  "main": "lib/selenium-flex",
   "scripts": {
     "test": "mocha -R landing lib/selenium-flex.js"
   },
@@ -15,22 +15,21 @@
     "flex",
     "api",
     "web-driver",
-    "flash"],
-
+    "flash"
+  ],
   "author": {
     "name": "Fernando Hernandez",
     "email": "zetahernandez@gmail.com"
   },
-  "main": "lib/selenium-flex",
-
   "readmeFilename": "README.md",
   "gitHead": "71ea284a0f56453c1b03c8a15e4fda315ac9d93b",
-
+  
   "dependencies": {
     "async": "~0.1.22",
     "expect.js": "~0.2.0",
     "mocha": "~1.7.1",
     "debug": "~0.7.0",
-    "wd": "0.0.26"
-  },
+    "wd": "0.0.26",
+    "underscore": "~1.4.4"
+  }
 }
